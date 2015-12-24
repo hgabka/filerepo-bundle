@@ -1,0 +1,7 @@
+hg_file_repository_download:
+    pattern:  /download/{id}/{filename}
+    defaults: { _controller: HGFileRepositoryBundle:Default:download, filename: '' }
+
+hg_file_repository_uploadify:
+    pattern:  /uploadify/{name}/{type}/{formType}/{subdir}/{controller}
+    defaults: { _controller: HGFileRepositoryBundle:Default:uploadify, subdir: '', controller: '' }
