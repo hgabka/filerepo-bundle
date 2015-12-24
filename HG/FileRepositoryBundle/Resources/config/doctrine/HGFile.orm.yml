@@ -1,0 +1,33 @@
+HG\FileRepositoryBundle\Entity\HGFile:
+    type: entity
+    table: hg_file
+    repositoryClass: HG\FileRepositoryBundle\Entity\HGFileRepository
+    id:
+        fil_id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        fil_type:
+            type: string
+            length: 64
+            notnull: false
+        fil_original_filename:
+            type: string
+            length: 128
+            notnull: false
+        fil_filename:
+            type: string
+            length: 128
+            notnull: false
+        fil_mime_type:
+            type: string
+            length: 128
+            notnull: false
+        fil_subdirectory:
+            type: string
+            length: 128
+            notnull: false
+        fil_size:
+            type: integer
+            notnull: false
+
