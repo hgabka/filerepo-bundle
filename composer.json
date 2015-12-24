@@ -19,8 +19,8 @@
     "require-dev": {
         "twig/twig": "~1.5",
         "doctrine/doctrine-bundle": "*",
-        "symfony/yaml": "~2.1",
-        "symfony/validator": "~2.1"
+        "symfony/yaml": "~2.3|~3.0",
+        "symfony/validator": "~2.3|~3.0"
     },
     "autoload": {
         "psr-0": { "HG\\FileRepositoryBundle": "" }
